@@ -10,11 +10,21 @@
     tools:context="com.eventbusdemo.SecondActivity">
 
     <TextView
+        android:id="@+id/tveventbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eventbus Example"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
         android:id="@+id/tv1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:textSize="16sp"/>
+        android:textSize="16sp"
+        android:layout_below="@+id/tveventbus"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:id="@+id/tv2"
@@ -23,6 +33,52 @@
         android:textColor="@android:color/black"
         android:textSize="16sp"
         android:layout_below="@+id/tv1"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <View
+        android:id="@+id/seperator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/tv2"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvseperator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="String Encryptor Example"
+        android:layout_below="@+id/seperator"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvseperator"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="15dp"/>
 
 </RelativeLayout>

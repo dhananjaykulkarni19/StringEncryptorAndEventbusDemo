@@ -72,5 +72,4 @@ public class FragmentTwo extends Fragment {
         tv2.setText("Received Data : " + model.getData());
 
     }
-
 }
